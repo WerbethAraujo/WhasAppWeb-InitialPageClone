@@ -14,5 +14,122 @@
     <link rel="stylesheet" href="./assets/src/style.css" />
     <title>WhatsApp Web Clone</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <div class="toolbar-container">
+          <img
+            class="user-photo"
+            src="./assets/img/avatar1.png"
+            alt="imagem do usuario"
+          />
+          <div class="toolbar-icons">
+            <i class="fas fa-spinner"></i>
+            <i class="fas fa-comment-alt"></i>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <div class="notifications-container">
+            <i class="fas fa-bell-slash"></i>
+            <p>Receba notificaçôes de novas mensagens</p>
+            <p>
+              Ativar notificaçôes na área de trabalho
+              <i class="fas fa-angle-right"></i>
+            </p>
+          </div>
+          <div class="search">
+            <i class="fas fa-search"></i>
+            <input
+              type="text"
+              name="search"
+              id="search"
+              placeholder="Procura ou começar uma nova conversa"
+            />
+          </div>
+          <div class="contacts-container">
+            <div class="contact-box">
+              <img
+                class="user-photo"
+                src="./assets/img/avatar2.png"
+                alt="primeira conversa"
+              />
+              <div class="user-info">
+                <p class="user-name">Maya Mana</p>
+                <p class="user-message-preview">
+                  Oi tudo bem <i class="fas fa-check-double"></i>
+                </p>
+              </div>
+              <div class="message-info">
+                <p class="message-time">12:55</p>
+              </div>
+            </div>
+            <div class="contact-box">
+              <img
+                class="user-photo"
+                src="./assets/img/avatar3.png"
+                alt="segunda conversa"
+              />
+              <div class="user-info">
+                <p class="user-name">Weslley Mano</p>
+                <p class="user-message-preview">
+                  Como vão as coisas por ai mano?
+                </p>
+              </div>
+              <div class="message-info">
+                <p class="message-time">18:40</p>
+                <p class="message-pedding">3</p>
+              </div>
+            </div>
+            <div class="contact-box">
+              <img
+                class="user-photo"
+                src="./assets/img/avatar4.png"
+                alt="terceira conversa"
+              />
+              <div class="user-info">
+                <p class="user-name">Mãe</p>
+                <p class="user-message-preview">
+                  Oi filho, tudo bem? Bom dia!! ❤️
+                </p>
+              </div>
+              <div class="message-info">
+                <p class="message-time">08:30</p>
+                <p class="message-pedding">2</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <main class="chat-container">
+        <nav class="chat-navbar">
+          <div class="chat-contact-info">
+            <img src="./assets/img/avatar2.png" alt="conversa atual" />
+            <p class="chat-contact">Maya Mana</p>
+          </div>
+          <ul class="toolschat-container">
+            <li><i class="fas fa-search"></i></li>
+            <li><i class="fas fa-paperclip"></i></li>
+            <li><i class="fas fa-ellipsis-v"></i></li>
+          </ul>
+        </nav>
+        <div class="messages-container">
+          <div class="bg-messages"></div>
+          <div class="chat-messages">
+            <p class="guest-message">Oi, Bom dia?</p>
+            <p class="user-message">Oi, Tudo bem?</p>
+          </div>
+        </div>
+        <div class="sendmessage-container">
+          <i class="fas fa-grin"></i>
+          <input
+            id="chat-message"
+            class="input-message"
+            type="text"
+            name="message"
+            placeholder="Digite uma mensagem"
+          />
+          <i class="fas fa-microphone"></i>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
