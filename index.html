@@ -28,73 +28,75 @@
             <i class="fas fa-comment-alt"></i>
             <i class="fas fa-ellipsis-v"></i>
           </div>
-          <div class="notifications-container">
-            <i class="fas fa-bell-slash"></i>
-            <p>Receba notificaçôes de novas mensagens</p>
-            <p>
-              Ativar notificaçôes na área de trabalho
-              <i class="fas fa-angle-right"></i>
-            </p>
-          </div>
-          <div class="search">
-            <i class="fas fa-search"></i>
-            <input
-              type="text"
-              name="search"
-              id="search"
-              placeholder="Procura ou começar uma nova conversa"
+        </div>
+        <div class="notifications-container">
+          <i class="fas fa-bell-slash"></i>
+          <p class="recevid-notification">
+            Receba notificaçôes de novas mensagens
+          </p>
+          <p class="actived-notification">
+            Ativar notificaçôes na área de trabalho
+            <i class="fas fa-angle-right"></i>
+          </p>
+        </div>
+        <div class="search-container">
+          <i class="fas fa-search"></i>
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Procura ou começar uma nova conversa"
+          />
+        </div>
+        <div class="contacts-container">
+          <div class="contact-box active-chat">
+            <img
+              class="user-photo"
+              src="./assets/img/avatar2.png"
+              alt="primeira conversa"
             />
+            <div class="user-info">
+              <p class="user-name">Maya Mana</p>
+              <p class="user-message-preview">
+                <i class="fas fa-check-double"></i> Oi, tudo bem ?
+              </p>
+            </div>
+            <div class="message-info">
+              <p class="message-time">12:55</p>
+            </div>
           </div>
-          <div class="contacts-container">
-            <div class="contact-box">
-              <img
-                class="user-photo"
-                src="./assets/img/avatar2.png"
-                alt="primeira conversa"
-              />
-              <div class="user-info">
-                <p class="user-name">Maya Mana</p>
-                <p class="user-message-preview">
-                  Oi tudo bem <i class="fas fa-check-double"></i>
-                </p>
-              </div>
-              <div class="message-info">
-                <p class="message-time">12:55</p>
-              </div>
+          <div class="contact-box">
+            <img
+              class="user-photo"
+              src="./assets/img/avatar3.png"
+              alt="segunda conversa"
+            />
+            <div class="user-info">
+              <p class="user-name">Weslley Mano</p>
+              <p class="user-message-preview">
+                Como vão as coisas por ai mano?
+              </p>
             </div>
-            <div class="contact-box">
-              <img
-                class="user-photo"
-                src="./assets/img/avatar3.png"
-                alt="segunda conversa"
-              />
-              <div class="user-info">
-                <p class="user-name">Weslley Mano</p>
-                <p class="user-message-preview">
-                  Como vão as coisas por ai mano?
-                </p>
-              </div>
-              <div class="message-info">
-                <p class="message-time">18:40</p>
-                <p class="message-pedding">3</p>
-              </div>
+            <div class="message-info">
+              <p class="message-time">18:40</p>
+              <p class="message-pending">3</p>
             </div>
-            <div class="contact-box">
-              <img
-                class="user-photo"
-                src="./assets/img/avatar4.png"
-                alt="terceira conversa"
-              />
-              <div class="user-info">
-                <p class="user-name">Mãe</p>
-                <p class="user-message-preview">
-                  Oi filho, tudo bem? Bom dia!! ❤️
-                </p>
-              </div>
-              <div class="message-info">
-                <p class="message-time">08:30</p>
-                <p class="message-pedding">2</p>
-              </div>
+          </div>
+          <div class="contact-box">
+            <img
+              class="user-photo"
+              src="./assets/img/avatar4.png"
+              alt="terceira conversa"
+            />
+            <div class="user-info">
+              <p class="user-name">Mãe</p>
+              <p class="user-message-preview">
+                Oi filho, tudo bem? Bom dia!! ❤️
+              </p>
+            </div>
+            <div class="message-info">
+              <p class="message-time">08:30</p>
+              <p class="message-pending">2</p>
             </div>
           </div>
         </div>
@@ -102,7 +104,11 @@
       <main class="chat-container">
         <nav class="chat-navbar">
           <div class="chat-contact-info">
-            <img src="./assets/img/avatar2.png" alt="conversa atual" />
+            <img
+              class="user-photo"
+              src="./assets/img/avatar2.png"
+              alt="conversa atual"
+            />
             <p class="chat-contact">Maya Mana</p>
           </div>
           <ul class="toolschat-container">
